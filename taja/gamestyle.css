@@ -1,0 +1,150 @@
+body {
+
+    font-family: "Spoqa Han Sans"; 
+
+    margin: 0;
+
+    padding:0;
+
+    min-height:100vh;
+
+}
+
+.container {
+
+    width:610px;
+    position : absolute;
+    top:20%;
+    left:28%;
+}
+
+.TajaBack {
+
+    background-color:skyblue;
+
+    width: 600px;
+
+    height: 450px;
+
+    border: 5px solid #000;
+
+    overflow: hidden;
+
+}
+
+.TajaControl { /*시작버튼*/
+
+    position:relative;
+
+    width: 600px;
+
+    height: 45px;
+
+    border: 5px solid #000;
+
+    border-bottom:10px solid #000;
+
+    background:#000;
+
+}
+
+.TajaControl input:first-child {
+
+    position: absolute;
+
+    right:5px;
+
+    height:45px;
+
+    width:100px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#0000ff;
+
+}
+
+.TajaControl input:nth-child(2) {
+
+    height:43px;
+
+    width:485px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color: yellow;
+
+    background:#555;
+
+    padding-left: 10px;
+
+    border:0;
+
+}    
+
+
+
+input[type=button] {
+
+  -webkit-appearance:button;
+
+}
+
+#game-over {
+    display: none;
+    text-align: center;
+    padding-top: 92px;
+    z-index: 1;
+    width: 600px; /*canvas와 동일조건*/
+    height: 360px;
+    position: absolute;
+    top: 15%;
+  }
+  
+.button {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #AA2666;
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: #FB1886;
+    background-image: -webkit-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
+    background-image:         linear-gradient(to bottom, #FB1886 0%, #B30D5D 100%);
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #B30D5D;
+    background-image: -webkit-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
+    background-image:         linear-gradient(to bottom, #B30D5D 0%, #FB1886 100%);
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+  }
+  li {
+    padding: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  h2{
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
